@@ -14,18 +14,35 @@ Camera calibration is a fundamental process for essential sports analytics tasks
 
 
 ## Installation
-1. Clone the repository: 
+1. Clone the repository:
+```
 git clone https://github.com/gbreyt/AccuField
+```
 
-2. Navigate to the folder:
+3. Navigate to the folder:
+```
 cd AccuField
+```
 
-3. Install the package requirements:
+5. Ensure Python 3.11 is installed and (optionally) create a new virtual environment with Python@3.11.
+
+6. Install the package requirements:
+   Python 3.11.7 was used, however, it has been noted that a Python version newer than 3.8 should suffice.
+```
 pip install -r requirements.txt
+```
 
+7. Difficulties installing the packages:
+   Please note that some have experienced issues with installing the specific packages listed. If you too experience such issues, please try
+```
+opencv-python==4.9
+PyQT5==5.15
+```
 
 ## Usage
 Run the following command:
+```
 python GUI.py
+```
 
 
